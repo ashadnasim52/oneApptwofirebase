@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "446261191958",
+    "firebase_url": "https://myapplication13-407c4.firebaseio.com",
+    "project_id": "myapplication13-407c4",
+    "storage_bucket": "myapplication13-407c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446261191958:android:609107c1d4e5a15a",
+        "android_client_info": {
+          "package_name": "com.example.ashad.twoproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446261191958-sti1mhic45p540r84e1jo7p4gil3c94e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ashad.twoproject",
+            "certificate_hash": "260d75f56547032992b6c4114eec02c8728610d4"
+          }
+        },
+        {
+          "client_id": "446261191958-m60ocsno5ic8mf7l046gqgd62n2ee3bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9gzyoF9AyEIJw7d1jvt1akP2hgp1-dgI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446261191958-m60ocsno5ic8mf7l046gqgd62n2ee3bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446261191958:android:d302ca55e2ba50e8",
+        "android_client_info": {
+          "package_name": "com.superoriginal.rootashadnasim.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446261191958-oub0ob4e8rrqnnv7e247rv6npmb9at8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.superoriginal.rootashadnasim.myapplication",
+            "certificate_hash": "f4f1e2824e5ce975115ea1bc03dd7ea160c1f6fa"
+          }
+        },
+        {
+          "client_id": "446261191958-m60ocsno5ic8mf7l046gqgd62n2ee3bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9gzyoF9AyEIJw7d1jvt1akP2hgp1-dgI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446261191958-m60ocsno5ic8mf7l046gqgd62n2ee3bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
