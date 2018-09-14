@@ -36,18 +36,22 @@ public class MainActivity extends AppCompatActivity {
         FirebaseOptions options = new FirebaseOptions.Builder()
                 .setApplicationId("1:973605940358:android:d35f3bc4d0ea95b6") // Required for Analytics.
                 .setApiKey("AIzaSyBDxCczyQMvpeipwXhueXuU1FVhazI14D4") // Required for Auth.
-                .setDatabaseUrl("https://my-complain.firebaseio.com/") // Required for RTDB.
-                .setStorageBucket("gs://loginwithemail29may.appspot.com").build();
+                .setDatabaseUrl("https://loginwithemail29may.firebaseio.com/") // Required for RTDB.
+//                .setStorageBucket("gs://loginwithemail29may.appspot.com")
+                .build();
 
-
+//  FirebaseApp secondApp = FirebaseApp.initializeApp(getApplicationContext(), options, "second app");
+//    //storage
+//    FirebaseStorage storage = FirebaseStorage.getInstance(secondApp);
+//    StorageReference storageRef = storage.getReferenceFromUrl("gs://.......");
         // Initialize with secondary app.
-        FirebaseApp.initializeApp(this /* Context */, options, "secondary");
 
 // Retrieve secondary app.
-        FirebaseApp secondary = FirebaseApp.getInstance("secondary");
+        FirebaseApp secondary = FirebaseApp.initializeApp(this /* Context */, options, "secondary");
+
 // Get the database for the other app.
         FirebaseStorage secondaryDatabase = FirebaseStorage.getInstance(secondary);
-        StorageReference secRef = secondaryDatabase.getReference();
+        StorageReference secRef = secondaryDatabase.getReferenceFromUrl("gs://loginwithemail29may.appspot.com");
         secondaryRef = secRef.child("yo");
 
         anotherdatabase.setOnClickListener(new View.OnClickListener() {
